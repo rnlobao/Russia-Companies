@@ -1,4 +1,4 @@
-# List of Companies Leaving or Staying in Russia
+# Lista de empresas situadas na Russia
 
 ![bandeiras-russia-e-ucrania](https://github.com/rnlobao/Faculdade/assets/66230142/6fdd633a-a3c7-4c52-b362-49cfe33d2538)
 
@@ -8,52 +8,25 @@ Projeto de mineraçao de dados a partir do dataset disponibilizado no kaggle sob
 Contextualização:
 Os dados do projeto foram obtidos do Kaggle, do dataset "List of Companies Leaving or Staying in Russia".
 
-## 1. Problema de negócios
-### 1.1 Problema
-<!-- A Stand Out Brands é uma empresa que comercializa roupas de marca de segunda linha no modelo outlet.
-Tendo atingindo a marca de 5000 clientes, o time de marketing percebeu que alguns deles compram produtos de alto ticket, com alta frequência, e contribuem de forma significativa no faturamento da empresa.
+## 1. Problema
+Tendo em vista que vivemos em um mundo globalizado e a Russia na história moderna foi um dos ultimos países a abrir suas fronteiras para empresas multinacionais, o recente conflito armado contra a Ucrânia repercurtiu muito nessas empresas fazendo-las tomar atitudes de permanecer ou não em território Russo.
 
-Tendo identificado esta oportunidade de aumentar o faturamento, decidiram criar um programa de fidelidade para estes clientes, chamado de "Loyals". Logo, precisam que seja criada uma estrutura que identifique o perfil dos clientes mais valiosos, bem como dos demais grupos de clientes.
-
-Com base no programa Loyals, o time de marketing tomará ações direcionadas a este público, visando aumentar sua retenção.
-Também fará ações através das redes sociais através de publicidade direcionada, visando atingir clientes com perfil similar, aumentando assim o número de clientes no programa. -->
 
 ### 1.2 Objetivo
-<!-- Agrupar os mais de 5000 clientes em grupos por perfil de consumo, e identificar os clientes mais valiosos.
+Identificar, dada uma multinacional situada na russia com seu país sede e tipo de indústria, identificar se ela ficaria ou não na Russia em um cenário pós-guerra.
 
-Além disso, as seguintes questões de negócio devem ser respondidas à área de marketing:
+Além disso, as seguintes questões devem ser respondidas:
 
-- Quem são as pessoas elegíveis para participar do programa Loyals?
-- Quantos clientes farão parte do grupo?
-- Quais são as principais características desses clientes?
-- Qual a porcentagem de contribuição de faturamento, vinda do Loyals?
-- Qual a expectativa de faturamento desse grupo para os próximos meses?
-- Quais as condições para uma pessoa ser elegível ao Loyals?
-- Quais as condições para uma pessoa ser removida do Loyals?
-- Qual a garantia que o programa Loyals é melhor que o restante da base?
-- Quais ações do time de marketing pode realizar para aumentar o faturamento? -->
+- Empresas sediadas em países da OTAN tem mais chance de ficar?
+- Como se comportaram as empresas que são sediadas nos EUA?
+- Qual setor de negócio tem mais chance de sair do país?
 
-## 2. Premissas de negócio
-<!-- O time de marketing precisa visualizar os perfis de cada grupo de clientes dentro da ferramenta de visualização Metabase, já utilizada pela empresa. -->
-
-## 3. Planejamento da solução
-### 3.1. Produto final
-<!-- O que será entregue efetivamente?
-- Um dashboard dentro da ferramenta Metabase, que detalha os perfis de cada grupo de clientes.
-- Respostas às questões de negócio. -->
-
-### 3.2. Ferramentas
-<!-- Quais ferramentas serão usadas no processo?
+### 3. Ferramentas e Processos
+Quais ferramentas serão usadas no processo?
 - Python 3.8.0;
 - Jupyter Notebook;
 - Git e Github;
-- Coggle Mindmaps;
-- Pandas Profiling, Metabase;
-- Algoritmos de Clusterização;
-- Técnicas de Embedding;
-- Crontab e Papermill;
-- Serviços AWS: S3 (armazenamento), EC2 (servidor) e RDS (banco de dados). -->
-
+- Pandas, Sklearn;
 
 ### 3.3 Processo
 #### 3.3.1 Estratégia de solução
