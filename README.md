@@ -49,16 +49,38 @@ Tendo em vista que buscamos traçar o perfil de empresas que tendem a sair da ru
 Empresas sediadas nos Estados Unidos, de cunho industrial e que participam da OTAN são mais tendenciosas a sair.
 
 # 5. Modelos de Machine Learning aplicados
-Foram aplicados 4 modelos de Machine Learning: SVM, Modelo de Regressão Logística e Random Forest
+Foram aplicados 4 modelos de Machine Learning: SVM, Modelo de Regressão Logística, Random Forest e KNN
 
 # 6. Performance do modelo de Machine Learning
 Acurácia encontrada:
-- SVM: 0.67
-- Regressão Logística: 0.70
-- Random Forest: 0.69
+- SVM: 0.675
+- Regressão Logística: 0.700
+- Random Forest: 0.685
+- KNN: 0.685
+
+![image](https://github.com/rnlobao/Russia-Companies/assets/66230142/e1fef040-2ae5-485e-8c51-c3fb5a1f9d8f)
+
+
+F1-Score:
+- SVM: 0.176
+- Regressão Logística: 0.000
+- Random Forest: 0.383
+- KNN: 0.479
+
+![image](https://github.com/rnlobao/Russia-Companies/assets/66230142/b85c2f64-5662-434b-a1f6-92f147bb36af)
+
+
+AUC-ROC:
+- SVM: 0.515
+- Regressão Logística: 0.500
+- Random Forest: 0.582
+- KNN: 0.627
+
+![image](https://github.com/rnlobao/Russia-Companies/assets/66230142/132fa646-9c32-4dbc-988a-961f0e2f2e96)
+
 
 # 7. Conclusões
-Tendo em vista que nosso dataset é pequeno e não há diferenciação entre test e train foram obtidos bons resultados com o pré-processamento tendo altas chances de fazer uma boa predição utilizando Regressão Logística.
+Tendo em vista que nosso dataset é pequeno e não há diferenciação entre test e train foram obtidos bons resultados com o pré-processamento tendo altas chances de fazer uma boa predição utilizando Knn, já que em regressão logística o AUC-ROC = 0.5 diz que modelo não tem poder de discriminação e está apenas fazendo previsões aleatórias.
 
 O trabalho foi realizado junto com Rafael (https://github.com/rafaugusto20) e Pablo (https://github.com/PabloCoellho)
 
